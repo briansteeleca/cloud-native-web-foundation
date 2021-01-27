@@ -46,7 +46,7 @@
 
 <figure>
   <img alt="Success Kid" src="successkid.jpg" />
-  <figcaption>Have fun with Sapper!</figcaption>
+  <figcaption>Successkid.jpg is hardcoded!</figcaption>
 </figure>
 
 <p>
