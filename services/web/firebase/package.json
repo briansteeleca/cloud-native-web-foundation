@@ -4,6 +4,7 @@
   "description": "The web service's Firebase project.",
   "main": "index.js",
   "scripts": {
+    "dev": "firebase serve",
     "deploy": "firebase deploy",
     "firebase:login": "firebase login",
     "test": "echo \"Error: no test specified\" && exit 1"
