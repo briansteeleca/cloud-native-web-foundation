@@ -1,5 +1,5 @@
 <script>
-  // import successkid from 'images/successkid.jpg';
+  import successkid from "images/successkid.jpg";
 </script>
 
 <style>
@@ -45,8 +45,8 @@
 <h1>Great success!</h1>
 
 <figure>
-  <img alt="Success Kid" src="successkid.jpg" />
-  <figcaption>Successkid.jpg is hardcoded!</figcaption>
+  <img alt="Success Kid" src={successkid} />
+  <figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
 <p>
