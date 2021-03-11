@@ -36,7 +36,7 @@ describe("Blog posts", () => {
  
   posts.forEach((post) => {
     it(`lists the "${post.title}" blog post`, () => {
-      cy.contains("ul li a", post.title).should(
+      cy.contains('[data-cy=blog-posts-list] li a', post.title).should(
         "have.attr",
         "href",
         `blog/${post.slug}`
